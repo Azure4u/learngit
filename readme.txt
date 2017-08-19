@@ -1,3 +1,5 @@
+file-->git-add-->stage(缓存区)-->git-commit-->master(存储区)
+    git-add后未git-commit情况下继续修改file，然后git-commit操作提交的是存在缓存区的文件版本，不是刚刚修改后的file
 git init                     初始化一个git仓库
 git add <fileName>           将一个文件添加到仓库
 git commit -m "message"      提交文件，备注信息
