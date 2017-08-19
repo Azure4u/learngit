@@ -3,4 +3,9 @@ git add <fileName>           将一个文件添加到仓库
 git commit -m "message"      提交文件，备注信息
 git status                   获取仓库的状态信息
 git diff <dileName>          查看与上版本的不同
-git test
+git log --pretty=oneline     查看提交日志（每条在一行显示）
+git reflog                   查看命令历史
+git reset hard HEAD^         回到上一个版本（^表示上个版本^^表示上上个版本，HEAD~10 回到10次提交之前的版本）
+git reset hard <commitId>    回到只等版本（命令行窗口未关闭情况下能使用）
+
+cat <fileName>               查看文档内容
