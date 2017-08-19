@@ -11,3 +11,4 @@ git reset hard HEAD^         回到上一个版本（^表示上个版本^^表示上上个版本，HEAD
 git reset hard <commitId>    回到指定版本（命令行窗口未关闭情况下能使用）
 
 cat <fileName>               查看文档内容
+hjkkkk123123123
