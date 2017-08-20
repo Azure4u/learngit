@@ -14,3 +14,4 @@ cat <fileName>               查看文档内容
 
 create new branch is quick & simple
 
+bug 1001     ok!
