@@ -12,3 +12,4 @@ git reset hard <commitId>    回到指定版本（命令行窗口未关闭情况下能使用）
 
 cat <fileName>               查看文档内容
 dev
+user1 dev
